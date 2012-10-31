@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6408,6 +6408,9 @@ http://dangerousprototypes.com</description>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="-43.18" y1="63.5" x2="-43.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="45.72" x2="-30.48" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="GND@2"/>
+<wire x1="-17.78" y1="48.26" x2="-22.86" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="48.26" x2="-22.86" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="88.9" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
@@ -6453,13 +6456,17 @@ http://dangerousprototypes.com</description>
 <junction x="63.5" y="111.76"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="27.94" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="27.94" x2="-20.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="43.18" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="45.72" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-20.32" y="45.72"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="G$1" pin="VCC@1"/>
+<pinref part="IC2" gate="G$1" pin="VCC@2"/>
+<wire x1="-17.78" y1="43.18" x2="-20.32" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-20.32" y="43.18"/>
 </segment>
 <segment>
 <wire x1="-17.78" y1="71.12" x2="-17.78" y2="73.66" width="0.1524" layer="91"/>
