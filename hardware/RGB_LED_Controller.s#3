@@ -6451,17 +6451,13 @@ http://dangerousprototypes.com</description>
 <junction x="63.5" y="111.76"/>
 </segment>
 <segment>
-<wire x1="-20.32" y1="27.94" x2="-20.32" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="43.18" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="27.94" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="45.72" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-20.32" y="45.72"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="IC2" gate="G$1" pin="VCC@1"/>
-<pinref part="IC2" gate="G$1" pin="VCC@2"/>
-<wire x1="-17.78" y1="43.18" x2="-20.32" y2="43.18" width="0.1524" layer="91"/>
-<junction x="-20.32" y="43.18"/>
 </segment>
 <segment>
 <wire x1="-17.78" y1="71.12" x2="-17.78" y2="73.66" width="0.1524" layer="91"/>

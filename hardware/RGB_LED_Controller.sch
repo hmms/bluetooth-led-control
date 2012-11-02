@@ -6452,7 +6452,7 @@ http://dangerousprototypes.com</description>
 <instances>
 <instance part="+3V1" gate="G$1" x="63.5" y="121.92"/>
 <instance part="GND1" gate="1" x="53.34" y="81.28"/>
-<instance part="GND2" gate="1" x="30.48" y="119.38" rot="R180"/>
+<instance part="GND2" gate="1" x="30.48" y="101.6"/>
 <instance part="GND3" gate="1" x="66.04" y="17.78"/>
 <instance part="U$2" gate="G$1" x="91.44" y="45.72"/>
 <instance part="+3V2" gate="G$1" x="-20.32" y="25.4" rot="R180"/>
@@ -6521,12 +6521,6 @@ http://dangerousprototypes.com</description>
 <wire x1="43.18" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="ADJ"/>
 <pinref part="C2" gate="C" pin="-"/>
-</segment>
-<segment>
-<wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="111.76" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="PWR"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
@@ -6600,6 +6594,14 @@ http://dangerousprototypes.com</description>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="142.24" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="132.08" x2="147.32" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GNDBREAK"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<wire x1="25.4" y1="109.22" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="25.4" y1="106.68" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="106.68" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6687,20 +6689,15 @@ http://dangerousprototypes.com</description>
 <pinref part="J2" gate="J" pin="4"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="109.22" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="106.68" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="106.68" x2="38.1" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="111.76" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
 <junction x="43.18" y="111.76"/>
 <wire x1="43.18" y1="111.76" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="IN"/>
 <pinref part="C2" gate="C" pin="+"/>
-<pinref part="J1" gate="G$1" pin="GNDBREAK"/>
-<pinref part="J1" gate="G$1" pin="GND"/>
-<junction x="25.4" y="106.68"/>
 <pinref part="U$3" gate="G$1" pin="12V"/>
+<pinref part="J1" gate="G$1" pin="PWR"/>
+<wire x1="25.4" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
