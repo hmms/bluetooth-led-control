@@ -1054,7 +1054,7 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <contactref element="C5" pad="2"/>
 <contactref element="U$4" pad="PIO5"/>
-<polygon width="0.6096" layer="1" isolate="0.4064">
+<polygon width="0.6096" layer="1" isolate="0.6096">
 <vertex x="1.8" y="36.6"/>
 <vertex x="1.8" y="38.7" curve="-90"/>
 <vertex x="4.4" y="41.3"/>
