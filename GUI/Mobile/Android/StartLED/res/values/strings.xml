@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">StartLED</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="mode0">Mode0</string>
+    <string name="mode1">mode1</string>
+    <string name="mode2">Mode2</string>
+    <string name="mode3">mode3</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
