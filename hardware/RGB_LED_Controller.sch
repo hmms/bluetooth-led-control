@@ -6516,7 +6516,6 @@ http://dangerousprototypes.com</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="U$2" library="microbuilder" deviceset="12V" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603K"/>
@@ -6561,7 +6560,6 @@ http://dangerousprototypes.com</description>
 <instance part="GND1" gate="1" x="53.34" y="81.28"/>
 <instance part="GND2" gate="1" x="30.48" y="101.6"/>
 <instance part="GND3" gate="1" x="66.04" y="17.78"/>
-<instance part="U$2" gate="G$1" x="91.44" y="45.72"/>
 <instance part="+3V2" gate="G$1" x="-20.32" y="25.4" rot="R180"/>
 <instance part="GND4" gate="1" x="-30.48" y="25.4"/>
 <instance part="C1" gate="G$1" x="-27.94" y="45.72" rot="R90"/>
@@ -6783,13 +6781,6 @@ http://dangerousprototypes.com</description>
 </net>
 <net name="12V" class="0">
 <segment>
-<wire x1="86.36" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="55.88" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="12V"/>
-<pinref part="J2" gate="J" pin="4"/>
-</segment>
-<segment>
 <wire x1="43.18" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="111.76" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
 <junction x="43.18" y="111.76"/>
@@ -6867,6 +6858,14 @@ http://dangerousprototypes.com</description>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="160.02" y1="124.46" x2="165.1" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="124.46" x2="165.1" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<wire x1="86.36" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="55.88" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J" pin="4"/>
 </segment>
 </net>
 </nets>
